@@ -1,7 +1,6 @@
 package programmers_lv1
 
 import java.lang.StringBuilder
-import kotlin.math.max
 
 fun main() {
     println(solution(arrayOf("AN", "CF", "MJ", "RT", "NA"), intArrayOf(5, 3, 2, 7, 5)))
