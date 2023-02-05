@@ -1,0 +1,5 @@
+package beakjoon
+
+fun main() {
+
+}
