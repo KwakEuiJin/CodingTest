@@ -4,7 +4,7 @@ fun main() {
     val t = readln().toInt()
     for (i in 0 until t) {
         val array = arrayListOf<Pair<Int, Int>>()
-        var maxRank = Int.MAX_VALUE
+        var target = Int.MAX_VALUE
         var answer = 0
         val n = readln().toInt()
         for (j in 0 until n) {
@@ -13,8 +13,8 @@ fun main() {
         }
         array.sortBy { it.first }
         array.forEach { pair ->
-            if (maxRank > pair.second){
-                maxRank = pair.second
+            if (target > pair.second){
+                target = pair.second
                 answer++
             }
         }
