@@ -1,10 +1,9 @@
 package beakjoon
 
 fun main() {
-    val numbers = (1..10).toList()
-
-    val sumUsingReduce = numbers.reduce {total, num ->
-        total + num
+    val n = readln().toInt()
+    for (i in 0 until n) {
+        val input = readln()
+        println("${input.first()}${input.last()}")
     }
-    println(sumUsingReduce) // 55
 }
